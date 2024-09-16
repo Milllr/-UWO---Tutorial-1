@@ -4,45 +4,73 @@
 <title>Miller Downey - Projects</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
+<style>
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    .topnav {
+        background-color: #000000;
+        width: 100%;
+        height: 10vh;
+        background: black;
+        overflow: hidden;
+    
+    }
+
+    .Geometry-Dash {
+        background-color: #FFFFFF;
+        width: 100%;
+    }
+
+    .osu {
+        background-color: #000000;
+        width: 100%;
+    }
+</style>
+
 <body>
 
 <center><div class="topnav">
-    <a href="index.html">Home</a>
-    <a class="active" href="projects.html">Projects</a>
-    <a href="aboutme.html">About Me</a>
-</div></center>
-
-<div class="intro">
-    <center><h1>Projects:</h1></center>
+    <h1 style="color: #FFFFFF">Projects:</h1>
+    <a style="color: #FFFFFF" href="index.html">Home</a>
+    <a style="color: #FFFFFF" class="active" href="projects.html">Projects</a>
+    <a style="color: #FFFFFF" href="aboutme.html">About Me</a>
 </div>
 
 
-
-<div class="Osu"></div>
+<div class="Geometry-Dash">
     <h2>Geometry Dash:</h2>
     <p>In 2022 I remade hit game Geometry Dash in Java.</p>
     <p>This game took me 400 hours to make and was the first thing ive created in Java. I made every asset in photoshop (minus the music)</p>
-</div>
 
-<video width="1024px" 
+
+
+    <video width="1024px" 
            height="576px" 
            controls="controls">
         <source src="geo dash demo.mp4" 
                 type="video/mp4" />
     </video>
-
-<div class="Osu"></div>
-    <h2>Osu:</h2>
-    <p>In 2023 I remade Osu.</p>
-    <p>This time, I focused on animations and spent a considerable amount of time creating hover animations and various UI features.</p>
-    <p>(To note: I never used any external libraries for either of these games. Everything was done from scratch in Java)</p>
+    <p></p>
 </div>
-<video width="1024px" 
+
+<div class = "osu">
+    <p><br></p>
+    <h2 style="color: #FFFFFF">Osu:</h2>
+    <p style="color: #FFFFFF">In 2023 I remade Osu.</p>
+    <p style="color: #FFFFFF">This time, I focused on animations and spent a considerable amount of time creating hover animations and various UI features.</p>
+    <p style="color: #FFFFFF">(To note: I never used any external libraries for either of these games. Everything was done from scratch in Java)</p>
+    <video width="1024px" 
            height="576px" 
            controls="controls">
         <source src="osu demo.mp4" 
                 type="video/mp4" />
     </video>
+</div>
+</center>
 
 </body>
 </html>
